@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pendu</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Pendu</h1>
+
+        <div class="container">
+            <div class="row">
+                <div id="espaceJeu" class="col-md-12"></div>
+
+                <br><br>
+                <input type="text" id="lettre" class="form-control" placeholder="Entrer une lettre" onkeyup="jouer()" maxlength="1">
+                <br><br>
+
+                <button type="button" id="lettreSaisies" class="btn btn-light btn-block" disabled>Lettres saisies :</button>
+
+                <button type="button" id="nombreCoup" class="btn btn-danger btn-block" disabled>Nombres de coups : <span id="coups"></span></button>
+
+            </div>
+          </div>
+
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

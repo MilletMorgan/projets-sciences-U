@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Morpion</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Morpion</h1>
+
+        <div class="container">
+            <div class="game">
+                <div class="row">
+                    <div class="row">
+                        <button class="btn btn-light border-top-left" id="1" onclick="jouer(event)"></button>
+                        <button class="btn btn-light" id="2" onclick="jouer(event)"></button>
+                        <button class="btn btn-light border-top-right" id="3" onclick="jouer(event)"></button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-light" id="4" onclick="jouer(event)"></button>
+                        <button class="btn btn-light" id="5" onclick="jouer(event)"></button>
+                        <button class="btn btn-light" id="6" onclick="jouer(event)"></button>
+                    </div>
+                    <div class="row">
+                        <button class="btn btn-light border-bottom-left" id="7" onclick="jouer(event)"></button>
+                        <button class="btn btn-light" id="8" onclick="jouer(event)"></button>
+                        <button class="btn btn-light border-bottom-right" id="9" onclick="jouer(event)"></button>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+
+
+        <script type="text/javascript" src="morpion.js"></script>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+html, body {
+    margin: 0!important;
+    padding: 0!important;
+}
+
+*{
+    text-align: center;
+}
+
+.game {
+    background: #4D69FF;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 366px;
+    height: auto;
+    border-radius: 25px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    background: #FFF;
+    font-size: 3em!important;
+    border: 5px solid #4D69FF!important;
+}
+
+.border-top-left{
+    border-radius: 20px 0 0 0!important;
+}
+
+.border-top-right {
+    border-radius: 0 20px 0 0!important;
+}
+
+.border-bottom-left{
+    border-radius: 0 0px 0 20px!important;
+}
+
+.border-bottom-right{
+    border-radius: 0 0 20px 0 !important;
+}
