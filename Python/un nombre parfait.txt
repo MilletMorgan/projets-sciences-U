@@ -1,0 +1,39 @@
+un nombre parfait est un nombre qui est égal à la somme de ses diviseurs stricts.
+
+exemple : 10
+
+diviseurs de 10 : 1, 2, 5, 10
+diviseurs stricts : 1, 2, 5
+sommes des diviseurs stricts : 1 + 2 + 5 = 8
+
+8 != 10
+
+Donc 10 n'est pas un nombre parfait.
+
+6 : 
+1, 2, 3, 6
+1, 2, 3
+1 + 2 + 3 = 6
+
+6 est un nombre parfait.
+
+16 :
+1, 2, 3, 4, 8, 16
+1, 2, 3, 4, 8
+1 + 2 + 4 = 15
+
+16 n'est pas un nombre parfait.
+
+26 :
+1, 2, 3, 4, 13, 26
+1, 2, 3, 4, 13
+1 + 2 + 13 = 16
+
+26 n'est pas un nombre parfait.
+
+28 :
+1, 2, 4, 7, 14, 28
+1, 2, 4, 7, 14
+1 + 2 + 4 + 7 + 14 = 28
+
+28 est un nombre parfait.
